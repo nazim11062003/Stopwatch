@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: #CDD5D1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vw;
+}
+.stopwatch{
+    width: 40vw;
+    min-height: 20vh;
+    background-color: #0D1321;
+    color: white;
+    text-align: center;
+    line-height: 20vh;
+    border: none;
+    border-radius: 2vh;
+}
+.timerBtn{
+    margin-top: 5vh;
+}
+.btn1{
+    width: 5vw;
+}
+.btn3{
+    width: 5vw;
+}
+.btn2{
+    width: 7vw;
+}
+.btn1:hover{
+    cursor: pointer;
+}
+.btn2:hover{
+    cursor: pointer;
+}
+.btn3:hover{
+    cursor: pointer;
+}
